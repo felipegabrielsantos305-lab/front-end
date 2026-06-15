@@ -1,14 +1,13 @@
 todo-list/
-│
-├── server/
-│
-├── client/
-│   ├── login.html
-│   ├── register.html
-│   ├── tasks.html
-│   ├── css/
-│   │   └── styles.css
-│   └── js/
-│       └── scripts.js
-│
-└── README.md
+     
+    server/
+     
+    client/
+         login.html
+         register.html
+         index.html
+         css/
+            styles.css
+         js/
+            scripts.js
+    README.md
