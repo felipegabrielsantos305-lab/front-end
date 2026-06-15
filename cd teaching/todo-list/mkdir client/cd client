@@ -1,1 +1,10 @@
-
+todo-list/
+├── README.md
+├── server/
+│   └── (arquivos do servidor fornecidos pelo professor)
+└── client/
+    ├── login.html        (Página de Login)
+    ├── register.html     (Página de Registro de Usuários)
+    ├── index.html        (Página de Gestão de Tarefas / Dashboard)
+    ├── style.css         (Estilização de todas as páginas)
+    └── scripts.js        (Único arquivo JS de integração com o back-end)
