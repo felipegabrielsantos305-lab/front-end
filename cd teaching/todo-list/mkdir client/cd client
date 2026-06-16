@@ -1,10 +1,8 @@
 todo-list/
-├── README.md
-├── server/
-│   └── (arquivos do servidor fornecidos pelo professor)
-└── client/
-    ├── login.html        (Página de Login)
-    ├── register.html     (Página de Registro de Usuários)
-    ├── index.html        (Página de Gestão de Tarefas / Dashboard)
-    ├── style.css         (Estilização de todas as páginas)
-    └── scripts.js        (Único arquivo JS de integração com o back-end)
+[span_11](start_span)├── server/ (já existente)[span_11](end_span)
+[span_12](start_span)└── client/[span_12](end_span)
+    [span_13](start_span)├── index.html       (Tela de Login)[span_13](end_span)
+    [span_14](start_span)├── register.html    (Tela de Cadastro)[span_14](end_span)
+    [span_15](start_span)├── dashboard.html   (Tela de Tarefas)[span_15](end_span)
+    [span_16](start_span)├── style.css        (Estilização visual)[span_16](end_span)
+    [span_17](start_span)└── scripts.js       (Lógica de comunicação)[span_17](end_span)
