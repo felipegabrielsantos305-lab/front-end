@@ -76,3 +76,114 @@ p a {
 p a:hover {
     text-decoration: underline;
 }
+
+/* ==========================================================================
+   ESTILOS DO DIA 2 - DASHBOARD (PÁGINA DE TAREFAS)
+   ========================================================================== */
+
+/* Caixa principal do Dashboard, um pouco mais larga que a de login */
+.dashboard-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+}
+
+/* Alinha o título e o botão Sair na mesma linha */
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 20px solid transparent;
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+/* Formulário de adicionar tarefa lado a lado */
+.todo-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.todo-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.todo-form button {
+    width: auto;
+    padding: 10px 20px;
+}
+
+/* Estilização da Lista de Tarefas */
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Cada linha de tarefa */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.task-item span {
+    font-size: 16px;
+    color: #495057;
+}
+
+/* Botões de Ação (Editar e Excluir) */
+.task-actions {
+    display: flex;
+    gap: 5px;
+}
+
+.task-actions button {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 14px;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.btn-edit:hover {
+    background-color: #e0a800;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+}
+
+.btn-delete:hover {
+    background-color: #bd2130;
+}
+
+/* Botão Sair (Cinza) */
+.btn-secondary {
+    background-color: #6c757d;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
