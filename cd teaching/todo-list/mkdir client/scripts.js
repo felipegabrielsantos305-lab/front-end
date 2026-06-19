@@ -1,5 +1,5 @@
-// No StackBlitz, o servidor roda localmente na porta 3000
-const API_URL = 'http://localhost:3000';
+// No StackBlitz, o servidor roda localmente na porta 5173
+const API_URL = 'http://localhost:5173';
 
 // ==========================================================================
 // LÓGICA DA TELA DE CADASTRO (REGISTER)
